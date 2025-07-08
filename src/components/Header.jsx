@@ -32,7 +32,7 @@ export default function Header() {
     <div>
       <BackgroundBeams />
       <div className="flex flex-col items-center justify-center md:h-screen h-[500px] w-full] text-white gap-4">
-        <h1 className="md:text-[90px] text-5xl font-semibold">Gino Rojo</h1>
+        <h1 className="md:text-[90px] text-6xl font-semibold">Gino Rojo</h1>
         <p className="md:text-[40px] text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#18CCFC] via-[#6344F5] to-[#AE48FF]">
           Web Developer
         </p>
