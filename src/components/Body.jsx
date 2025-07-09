@@ -9,7 +9,7 @@ export default function Body() {
         <TechCarousel/>   
         <h2 className='text-3xl font-semibold text-center  pt-30 text-transparent bg-clip-text bg-gradient-to-r from-[#18CCFC] via-[#6344F5] to-[#AE48FF]'>Personal Projects</h2>    
         <Tecnologias/>
-        <h2 className='text-3xl font-semibold text-center pt-30 text-transparent bg-clip-text bg-gradient-to-r from-[#18CCFC] via-[#6344F5] to-[#AE48FF]'>Team Projects</h2>
+        <h2 className='text-3xl font-semibold text-center md:pt-15 text-transparent bg-clip-text bg-gradient-to-r from-[#18CCFC] via-[#6344F5] to-[#AE48FF]'>Team Projects</h2>
         <TecnologiasGrupal/>
         
 
