@@ -29,7 +29,7 @@ export default function Header() {
   ];
 
   return (
-    <div>
+    <div className="ont-sans antialiased">
       <BackgroundBeams />
       <div className="flex flex-col items-center justify-center md:h-screen h-[500px] w-full] text-white gap-4">
         <h1 className="md:text-[90px] text-6xl font-semibold">Gino Rojo</h1>
@@ -38,7 +38,7 @@ export default function Header() {
         </p>
         <FloatingDock
         items={links}
-        desktopClassName="absolute top-90 md:top-110 lg:top-120 left-1/2 -translate-x-1/2 z-50 "
+        desktopClassName="absolute top-90  md:top-130 left-1/2 -translate-x-1/2 z-50 "
       />
       </div>
     </div>

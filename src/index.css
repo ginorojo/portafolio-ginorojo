@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #a748fe;
+  }
+  50% {
+    box-shadow: 0 0 15px #a748fe;
+  }
+  100% {
+    box-shadow: 0 0 5px #a748fe;
+  }
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+/* Más rápido en pantallas pequeñas (dispositivos móviles) */
+@media (max-width: 768px) {
+  .animate-glow {
+    animation-duration: 1s;
+  }
+}
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 25s linear infinite;
+}
