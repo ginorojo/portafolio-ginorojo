@@ -40,7 +40,7 @@ export default function AnimatedTestimonialsDemo() {
   ];
 
   return (
-    <div className="h-full w-full justify-center text-white md:pt-25 md:p-8">
+    <div className="h-full w-full justify-center text-white md:p-8">
       <AnimatedTestimonials testimonials={testimonials} />
     </div>
   );
