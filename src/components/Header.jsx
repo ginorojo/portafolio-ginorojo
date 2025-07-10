@@ -29,7 +29,7 @@ export default function Header() {
   ];
 
   return (
-    <div className="ont-sans antialiased">
+    <div className="font-sans antialiased">
       <BackgroundBeams />
       <div className="flex flex-col items-center justify-center md:h-screen h-[500px] w-full] text-white gap-4">
         <h1 className="md:text-[90px] text-6xl font-semibold">Gino Rojo</h1>
