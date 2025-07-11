@@ -26,7 +26,7 @@ const FloatingDockDesktop = ({ items, className }) => {
       onMouseMove={isPointer ? (e) => mouseX.set(e.pageX) : undefined}
       onMouseLeave={isPointer ? () => mouseX.set(Infinity) : undefined}
       className={cn(
-        "mx-auto flex h-16 items-end gap-4 rounded-2xl bg-gradient-to-r from-[#18CCFC] via-[#6344F5] to-[#AE48FF] px-4 pb-3 fixed bottom-6 left-1/2 -translate-x-1/2 z-50",
+        "mx-auto flex h-13 justify-center items-center gap-4 rounded-2xl bg-gradient-to-r from-[#18CCFC] via-[#6344F5] to-[#AE48FF] px-4  fixed bottom-6 left-1/2 -translate-x-1/2 z-50",
         className
       )}
     >
@@ -113,7 +113,7 @@ function IconContainer({
         <div
           ref={ref}
           className={`relative flex aspect-square items-center justify-center rounded-full transition-all duration-300 bg-gray-200 dark:bg-neutral-800 ${
-            isTouched ? "w-20 h-20" : "w-12 h-12"
+            isTouched ? "w-10 h-10" : "w-3 h-3"
           }`}
         >
           {isTouched && (

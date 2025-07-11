@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+
+
+/* o para títulos específicos */
+h1, h2 {
+  font-family: 'Array', sans-serif;
+  font-weight: regular;
+}
+
+body, p, a, li, span, button, h3, h4, h5, h6 {
+  font-family: 'Hove', sans-serif;
+}
+
+
+
 @keyframes glow {
   0% {
     box-shadow: 0 0 5px #a748fe;
