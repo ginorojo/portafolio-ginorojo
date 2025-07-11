@@ -113,7 +113,7 @@ function IconContainer({
         <div
           ref={ref}
           className={`relative flex aspect-square items-center justify-center rounded-full transition-all duration-300 bg-gray-200 dark:bg-neutral-800 ${
-            isTouched ? "w-10 h-10" : "w-3 h-3"
+            isTouched ? "w-10 h-10" : "w-6 h-6"
           }`}
         >
           {isTouched && (
@@ -123,7 +123,7 @@ function IconContainer({
           )}
           <div
             className={`flex items-center justify-center ${
-              isTouched ? "w-8 h-8" : "w-6 h-6"
+              isTouched ? "w-10 h-10" : "w-6 h-6"
             }`}
           >
             {icon}
