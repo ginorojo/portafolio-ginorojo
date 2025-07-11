@@ -32,7 +32,7 @@ export default function Header() {
     <div className="font-sans antialiased">
       <BackgroundBeams />
       <div className="flex flex-col items-center justify-center md:h-screen h-[500px] w-full] text-white gap-4">
-        <h1 className="font-array  md:text-[120px] text-6xl ">Gino Rojo</h1>
+        <h1 className="font-array  md:text-[120px] text-7xl ">Gino Rojo</h1>
         <h2 className="font-array md:text-[40px] text-3xl  text-transparent bg-clip-text bg-gradient-to-r from-[#18CCFC] via-[#6344F5] to-[#AE48FF]">
           Web Developer
         </h2>
