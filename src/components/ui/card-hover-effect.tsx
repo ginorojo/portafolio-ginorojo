@@ -6,7 +6,7 @@ export default function HoverEffectManual() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 py-10 gap-4 max-w-4xl mx-auto px-1">
+    <div className="grid grid-cols-1 md:grid-cols-2 md:py-10 gap-4 max-w-4xl mx-auto px-1">
       {[0, 1].map((index) => (
         <div
           key={index}

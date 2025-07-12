@@ -6,6 +6,7 @@ import {
   IconBrandGithub,
   IconBrandLinkedin
 } from "@tabler/icons-react";
+import {TextRevealCard} from './ui/text-reveal-card.jsx'
 import { title } from "motion/react-client";
 
 export default function Header() {
@@ -32,10 +33,13 @@ export default function Header() {
     <div className="font-sans antialiased">
       <BackgroundBeams />
       <div className="flex flex-col items-center justify-center md:h-screen h-[500px] w-full] text-white gap-4">
-        <h1 className="font-array  md:text-[120px] text-7xl ">Gino Rojo</h1>
-        <h2 className="font-array md:text-[40px] text-3xl  text-transparent bg-clip-text bg-gradient-to-r from-[#18CCFC] via-[#6344F5] to-[#AE48FF]">
-          Web Developer
-        </h2>
+        <h1 className="font-array  md:text-[120px] text-6xl ">Gino Rojo</h1>
+        <TextRevealCard
+          className="text-3xl flex items-center justify-center"
+          text="Web Developer"
+          revealText="Web Developer"
+        />
+        
         <FloatingDock
         items={links}
         desktopClassName="absolute top-90  md:top-130 left-1/2 -translate-x-1/2 z-50 "

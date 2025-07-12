@@ -3,15 +3,19 @@
 
 
 /* o para títulos específicos */
-h1, h2 {
+/* h1, h2 {
   font-family: 'Array', sans-serif;
   font-weight: regular;
-}
+} */
 
-body, p, a, li, span, button, h3, h4, h5, h6 {
+body, p, a, li, span, button, h3, h4, h5, h6,h1, h2,div {
   font-family: 'Hove', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Hove', sans-serif;
+  font-weight: bold;
+}
 
 
 @keyframes glow {
