@@ -6,6 +6,9 @@ import Education from './Education.jsx'
 import Cv from './Cv.jsx'
 import Aboutme from './Aboutme.jsx'
 import {TextRevealCard} from './ui/text-reveal-card.jsx'
+import ContactForm from './Contact.jsx'
+
+
 
 export default function Body() {
   return (
@@ -45,6 +48,13 @@ export default function Body() {
         revealText="Resume"
       />
       <Cv />
+       <TextRevealCard
+        className="pt-20  flex items-center justify-center"
+        text="Contact Me"
+        revealText="Contact Me"/>
+      <ContactForm/>
+
+   
     </div>
   );
 }
