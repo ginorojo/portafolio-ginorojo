@@ -2,7 +2,8 @@ export default function ContactForm() {
   return (
     <div className="w-full max-w-3xl  mb-20 bg-[#252549] p-8 rounded-2xl shadow-lg text-white">
       <form
-        action="8825bb8b45407c455a878bb5a5603fa5"
+        action="https://formsubmit.co/ginorojoj@gmail.com"
+
         method="POST"
         className="flex flex-col space-y-4"
       >
