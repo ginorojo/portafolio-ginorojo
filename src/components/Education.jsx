@@ -2,7 +2,7 @@ import HoverEffectManual from './ui/card-hover-effect';
 
 export default function Education() {
   return (
-    <div>
+    <div id='education'> 
       <HoverEffectManual />
     </div>
   );

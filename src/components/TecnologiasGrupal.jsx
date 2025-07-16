@@ -24,7 +24,7 @@ export default function AnimatedTestimonialsDemo() {
   ];
 
   return (
-    <div className="h-full w-full text-white md:p-8">
+    <div className="h-full w-full text-white md:p-8" id="team-projects">
       <AnimatedTestimonials testimonials={testimonials} />
     </div>
   );

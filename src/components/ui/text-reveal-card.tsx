@@ -83,13 +83,13 @@ export  const TextRevealCard = ({
           }
           transition={isMouseOver ? { duration: 0 } : { duration: 0.4 }}
           className="absolute   z-20  will-change-transform">
-          <p
+          <span
             style={{
               textShadow: "4px 4px 15px rgba(0,0,0,0.5)",
             }}
             className="text-center text-2xl md:text-[3rem] py-10 font-bold text-white ">
             {revealText}
-          </p>
+          </span>
         </motion.div>
         <motion.div
           animate={{
@@ -102,11 +102,11 @@ export  const TextRevealCard = ({
 
         <div
           className=" overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,white,transparent)]">
-          <p
+          <span
             className="text-center text-2xl md:text-[3rem] py-10 font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#18CCFC] via-[#6344F5] to-[#AE48FF]">
             {text}
-          </p>
-          <MemoizedStars />
+          </span>
+
         </div>
       </div>
     </div>

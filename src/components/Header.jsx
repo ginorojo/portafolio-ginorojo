@@ -2,20 +2,22 @@ import React from "react";
 import { BackgroundBeams } from "./ui/background-beams";
 import { FloatingDock } from "./ui/floating-dock";
 import {
-  IconBrandX,
   IconBrandGithub,
-  IconBrandLinkedin
+  IconBrandLinkedin,
+  IconBrandGmail
 } from "@tabler/icons-react";
 import {TextRevealCard} from './ui/text-reveal-card.jsx'
 import { title } from "motion/react-client";
+import Navbar from "./Navbar.jsx";
+
 
 export default function Header() {
   const links = [
      
     {
-      title: "Twitter",
-      icon: <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />,
-      href: "https://twitter.com/",
+      title: "Contact",
+      icon: <IconBrandGmail className="h-full w-full text-neutral-500 dark:text-neutral-300" />,
+      href: "#contact",
     },
     {
       title: "GitHub",
@@ -30,14 +32,17 @@ export default function Header() {
   ];
 
   return (
-    <div className="font-sans antialiased">
+    <div className="font-sans antialiased" id="home">
+     
       <BackgroundBeams />
       <div className="flex flex-col items-center justify-center md:h-screen h-[500px] w-full] text-white gap-4">
-        <h1 className="font-array  md:text-[120px] text-6xl ">Gino Rojo</h1>
+      <Navbar />
+        
+        <h1 className="font-wide md:text-[140px] text-6xl ">Gino Rojo</h1>
         <TextRevealCard
-          className="text-3xl flex items-center justify-center"
-          text="Web Developer"
-          revealText="Web Developer"
+          className="text-lg flex items-center justify-center"
+          text="Frontend Developer"
+          revealText="Frontend Developer"
         />
         
         <FloatingDock
