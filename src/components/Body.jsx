@@ -20,7 +20,7 @@ export default function Body() {
     
 
       {/* Personal Projects */}
-      <div id="personal-projects ">
+      <div id="personal-projects">
         <TextRevealCard
         className="md:pt-40 pt-50  flex items-center justify-center  "
         text="</> Personal Projects"

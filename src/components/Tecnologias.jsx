@@ -52,7 +52,7 @@ export default function AnimatedTestimonialsDemo() {
   ];
 
   return (
-    <div className="h-full w-full justify-center text-white md:p-8" id="personal-projects">
+    <div className="h-full w-full justify-center text-white md:p-8" >
       <AnimatedTestimonials testimonials={testimonials} />
     </div>
   );
