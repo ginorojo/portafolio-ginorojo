@@ -10,7 +10,41 @@ export default function AnimatedTestimonialsDemo() {
       designation: "Web Project",
       src: "/perfumes.webp",
       link: "https://perfumepage.vercel.app/",
-      github:"https://github.com/ginorojo/perfume-page"
+      github: "https://github.com/ginorojo/perfume-page",
+      technologies: [
+        {
+          name: "React",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+          url: "https://react.dev/",
+        },
+        {
+          name: "Vite",
+          icon: "https://vitejs.dev/logo-with-shadow.png",
+          url: "https://vitejs.dev/",
+        },
+        {
+          name: "Tailwind",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+          url: "https://tailwindcss.com/",
+        },
+        
+        {
+          name: "javascript",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+          url: "https://tailwindcss.com/",
+        },
+          {
+          name: "sql",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
+          url: "https://tailwindcss.com/",
+        },
+          {
+          name: "nodejs",
+          icon:  "https://nodejs.org/static/images/logo.svg",
+          url: "https://tailwindcss.com/",
+        },
+        
+      ],
     },
     {
       name: "Stays Platform",
@@ -20,6 +54,40 @@ export default function AnimatedTestimonialsDemo() {
       src: "/stays.webp",
       link: "https://final-proyect-wdd330.vercel.app/",
       github: "https://github.com/ginorojo/final-proyect-wdd330",
+       technologies: [
+        {
+          name: "React",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+        
+        },
+        {
+          name: "Vite",
+          icon: "https://vitejs.dev/logo-with-shadow.png",
+     
+        },
+        {
+          name: "Tailwind",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+       
+        },
+        
+        {
+          name: "javascript",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+         
+        },
+          {
+          name: "sql",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
+         
+        },
+          {
+          name: "nodejs",
+          icon:  "https://nodejs.org/static/images/logo.svg",
+        
+        },
+        
+      ],
     },
     {
       name: "Admin Dashboard",
@@ -29,6 +97,31 @@ export default function AnimatedTestimonialsDemo() {
       src: "/admin-perfumes.webp",
       link: "https://perfumepage.vercel.app/Test",
       github: "https://github.com/ginorojo/backend-perfumes",
+       technologies: [
+        {
+          name: "React",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+          url: "https://react.dev/",
+        },
+        {
+          name: "Vite",
+          icon: "https://vitejs.dev/logo-with-shadow.png",
+          url: "https://vitejs.dev/",
+        },
+        {
+          name: "Tailwind",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+          url: "https://tailwindcss.com/",
+        },
+        
+        {
+          name: "javascript",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+          url: "https://tailwindcss.com/",
+        },
+      
+        
+      ],
     },
     {
       name: "Smart Search Engine",
@@ -38,6 +131,31 @@ export default function AnimatedTestimonialsDemo() {
       src: "/buscador.webp",
       link: "https://ginorojo.github.io/react-github-search/",
       github: "https://github.com/ginorojo/react-github-search",
+      technologies: [
+        {
+          name: "React",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+          url: "https://react.dev/",
+        },
+        {
+          name: "Vite",
+          icon: "https://vitejs.dev/logo-with-shadow.png",
+          url: "https://vitejs.dev/",
+        },
+        {
+          name: "Tailwind",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+          url: "https://tailwindcss.com/",
+        },
+        
+        {
+          name: "javascript",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+          url: "https://tailwindcss.com/",
+        },
+          
+        
+      ],
     },
     {
       name: "Weather App",
@@ -47,14 +165,37 @@ export default function AnimatedTestimonialsDemo() {
       src: "/weather.webp",
       link: "https://app-weather-react-lemon.vercel.app",
       github: "https://github.com/ginorojo/app-weather-react",
+      technologies: [
+        {
+          name: "React",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+          url: "https://react.dev/",
+        },
+        {
+          name: "Vite",
+          icon: "https://vitejs.dev/logo-with-shadow.png",
+          url: "https://vitejs.dev/",
+        },
+        {
+          name: "Tailwind",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+          url: "https://tailwindcss.com/",
+        },
+        
+        {
+          name: "javascript",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+          url: "https://tailwindcss.com/",
+        },
+
+        
+      ],
     },
-    
   ];
 
   return (
-    <div className="h-full w-full justify-center text-white md:p-8" >
+    <div className="h-full w-full justify-center text-white md:p-8">
       <AnimatedTestimonials testimonials={testimonials} />
     </div>
   );
 }
-

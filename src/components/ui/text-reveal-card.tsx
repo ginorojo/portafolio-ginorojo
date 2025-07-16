@@ -62,7 +62,7 @@ export  const TextRevealCard = ({
       onTouchMove={touchMoveHandler}
       ref={cardRef}
       className={cn(
-        "flex justify-center itm  rounded-lg pb-8 relative overflow-hidden",
+        "flex justify-center  rounded-lg pb-8 relative overflow-hidden",
         className
       )}>
       {children}
