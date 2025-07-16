@@ -8,7 +8,7 @@ import {
 
 export default function TextRevealCardPreview() {
   return (
-    <div className="pt-30 flex items-center justify-center flex-col  h-[20rem] rounded-2xl w-full "id="about-me"  >
+    <div className="pt-40 flex items-center justify-center flex-col  h-[20rem] rounded-2xl w-full "id="about-me"  >
       <div id="about-me">
         <TextRevealCard
       className="text-3xl flex items-center justify-center pb-10"
