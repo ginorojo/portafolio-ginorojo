@@ -8,7 +8,7 @@ export default function AnimatedTestimonialsDemo() {
       quote:
         "Group project developed at university where I led the team and managed Git branches. The site sells outdoor gear, includes a shopping cart, and integrates a payment gateway. Built with teamwork and attention to detail.",
       designation: "Team Project",
-      src: "/pathway.png",
+      src: "/pathway.webp",
       link: "https://outsideteam3.netlify.app/",
       github: "https://github.com/ginorojo/wdd330-team-3-"
     },
@@ -17,7 +17,7 @@ export default function AnimatedTestimonialsDemo() {
       quote:
         "Collaborative project developed with classmates. The system manages users, students, and staff of the programming school, including their corresponding documents and access roles.",
       designation: "Team Project",
-      src: "/funval.png",
+      src: "/funval.webp",
       link:"https://frontend-hs-app.vercel.app/",
       github: "https://github.com/RicardoAHH/frontend-hs-app "
     }

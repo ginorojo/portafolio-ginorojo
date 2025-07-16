@@ -7,13 +7,13 @@ export default function CarouselDemo() {
     {
       title: "CV English",
       button: "Explore Component",
-      src: "/cv-ing.png",
+      src: "/cv-ing.webp",
       link:"https://drive.google.com/file/d/1hgTWtoe1hzu0GKAxpkyVPc7D3U4-4tm0/view?usp=drive_link"
     },
     {
       title: "CV Spanish",
       button: "Explore Component",
-      src: "/cv-esp.png",
+      src: "/cv-esp.webp",
       link:"https://drive.google.com/file/d/1z3TmlzX3VQmu4HjTx_N1HkbhV_gUCAqn/view?usp=drive_link"
     },
   ];

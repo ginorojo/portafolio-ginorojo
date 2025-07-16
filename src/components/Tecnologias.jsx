@@ -8,7 +8,7 @@ export default function AnimatedTestimonialsDemo() {
       quote:
         "A responsive online store built to sell perfumes. Includes product listings, shopping cart, and a user-friendly checkout process.",
       designation: "Web Project",
-      src: "/perfumes.png",
+      src: "/perfumes.webp",
       link: "https://perfumepage.vercel.app/",
       github:"https://github.com/ginorojo/perfume-page"
     },
@@ -17,7 +17,7 @@ export default function AnimatedTestimonialsDemo() {
       quote:
         "A page to explore accommodations with filters, map integration, and detailed property info. Perfect for users searching for lodging.",
       designation: "Web Project",
-      src: "/stays.png",
+      src: "/stays.webp",
       link: "https://final-proyect-wdd330.vercel.app/",
       github: "https://github.com/ginorojo/final-proyect-wdd330",
     },
@@ -26,7 +26,7 @@ export default function AnimatedTestimonialsDemo() {
       quote:
         "An admin panel to manage products, users, and e-commerce statistics. Features login, data tables, and a clean, intuitive layout.",
       designation: "Web Project",
-      src: "/admin-perfumes.png",
+      src: "/admin-perfumes.webp",
       link: "https://perfumepage.vercel.app/Test",
       github: "https://github.com/ginorojo/backend-perfumes",
     },
@@ -35,7 +35,7 @@ export default function AnimatedTestimonialsDemo() {
       quote:
         "A real-time search tool that finds any GitHub user along with their repositories. Offers a fast and simple interface.",
       designation: "Web Project",
-      src: "/buscador.png",
+      src: "/buscador.webp",
       link: "https://ginorojo.github.io/react-github-search/",
       github: "https://github.com/ginorojo/react-github-search",
     },
@@ -44,7 +44,7 @@ export default function AnimatedTestimonialsDemo() {
       quote:
         "Real-time weather app using an external API. Displays temperature, city, and weather status with a modern and clean design.",
       designation: "Web Project",
-      src: "/weather.png",
+      src: "/weather.webp",
       link: "https://app-weather-react-lemon.vercel.app",
       github: "https://github.com/ginorojo/app-weather-react",
     },
