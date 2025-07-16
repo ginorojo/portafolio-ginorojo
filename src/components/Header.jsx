@@ -38,7 +38,7 @@ export default function Header() {
       <div className="flex flex-col items-center justify-center md:h-screen h-[500px] w-full] text-white gap-4">
       <Navbar />
         
-        <h1 className="font-wide md:text-[140px] text-6xl ">Gino Rojo</h1>
+        <h1 className="font-wide md:text-[140px] text-7xl ">Gino Rojo</h1>
         <TextRevealCard
           className="text-lg flex items-center justify-center"
           text="Frontend Developer"

@@ -93,7 +93,7 @@ export default function Navbar() {
           >
             <button className={hoverGradient}>Projects</button>
             {dropdownOpen && (
-              <ul className="absolute top-full left-0 mt-2 bg-[#242424] shadow-lg rounded-md p-2 w-48 space-y-1 z-50 font-normal">
+              <ul className="absolute top-full left-0 mt-2 bg-[#242424] shadow-lg rounded-md p-2 w-48 space-y-1 z-50 font-normal ">
                 <li>
                   <a
                     href="#personal-projects"
@@ -136,7 +136,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <ul className="md:hidden px-6 pb-4 bg-[#242424] space-y-3 overflow-hidden transition-all">
+        <ul className="md:hidden px-6 pb-4 bg-[#242424] space-y-3 overflow-hidden transition-all text-lg">
           {menuItemsVisible >= 1 && (
             <li className="transition-all duration-300 ease-out">
               <a href="#about-me" onClick={handleCloseMenu} className={hoverGradient}>

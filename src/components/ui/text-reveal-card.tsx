@@ -62,7 +62,7 @@ export  const TextRevealCard = ({
       onTouchMove={touchMoveHandler}
       ref={cardRef}
       className={cn(
-        " w-full rounded-lg p-8 relative overflow-hidden",
+        "flex justify-center itm  rounded-lg pb-8 relative overflow-hidden",
         className
       )}>
       {children}
@@ -87,7 +87,7 @@ export  const TextRevealCard = ({
             style={{
               textShadow: "4px 4px 15px rgba(0,0,0,0.5)",
             }}
-            className="text-center text-2xl md:text-[3rem] py-10 font-bold text-white ">
+            className="text-center text-3xl md:text-[3rem] py-10 font-bold text-white w-full ">
             {revealText}
           </span>
         </motion.div>
@@ -103,7 +103,7 @@ export  const TextRevealCard = ({
         <div
           className=" overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,white,transparent)]">
           <span
-            className="text-center text-2xl md:text-[3rem] py-10 font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#18CCFC] via-[#6344F5] to-[#AE48FF]">
+            className="w-full text-center text-3xl md:text-[3rem] py-10 font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#18CCFC] via-[#6344F5] to-[#AE48FF]">
             {text}
           </span>
 

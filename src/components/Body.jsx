@@ -60,7 +60,7 @@ export default function Body() {
       />
       <Cv />
      </div>
-      <div id='contact'>
+      <div id='contact' className='w-full flex flex-col items-center justify-center'>
          <TextRevealCard
         className="md:pt-30 pt-15  flex items-center justify-center"
         text="</> Contact Me"
