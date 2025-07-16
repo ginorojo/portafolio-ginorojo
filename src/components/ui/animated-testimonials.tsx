@@ -120,7 +120,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
             </p>
 
             {testimonials[active].technologies && (
-              <div className="flex gap-2 flex-wrap items-start pt-3 ">
+              <div className="flex gap-2 flex-wrap items-start pt-3 pb-2 md:pb-0 ">
                 {testimonials[active].technologies.map((tech, index) => (
                   
                     <img
