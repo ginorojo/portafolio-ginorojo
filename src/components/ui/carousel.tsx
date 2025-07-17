@@ -69,12 +69,12 @@ const Slide = ({ slide, index, current, handleSlideClick }) => {
         }}
       >
         <div
-          className="border-3 border-[#a748fe] animate-glow absolute top-0 left-0 w-full h-full bg-[#1D1F2F] rounded-[10%] overflow-hidden transition-all duration-150 ease-out"
+          className="border-4 border-[#a748fe] animate-glow absolute top-0 left-0 w-full h-full bg-[#1D1F2F] rounded-[10%] overflow-hidden transition-all duration-150 ease-out"
           style={{
-            transform:
-              current === index
-                ? "translate3d(calc(var(--x) / 30), calc(var(--y) / 30), 0)"
-                : "none",
+            // transform:
+            //   current === index
+            //     ? "translate3d(calc(var(--x) / 30), calc(var(--y) / 30), 0)"
+            //     : "none",
           }}
         >
           <img
@@ -98,7 +98,7 @@ const Slide = ({ slide, index, current, handleSlideClick }) => {
             current === index ? "opacity-100 visible" : "opacity-0 invisible"
           }`}
         >
-          <h2 className="text-lg md:text-2xl lg:text-4xl text-white text-outline-black text-shadow-black  relative">
+          <h2 className="text-lg md:text-2xl lg:text-4xl text-white text-outline-black text-shadow-black  relative font-bold">
             {title}
           </h2>
           <div className="flex justify-center">

@@ -74,7 +74,7 @@ export default function Navbar() {
         </button>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-6 items-center ">
+        <ul className="hidden md:flex gap-8 items-center ">
           <li className="hover:scale-120 transition-transform duration-300">
             <a href="#home" className={hoverGradient} >
               Home
@@ -135,17 +135,26 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu */}
+        
       {menuOpen && (
         <ul className="md:hidden px-6 pb-4 bg-[#242424] space-y-3 overflow-hidden transition-all text-lg ">
-          {menuItemsVisible >= 1 && (
+            {menuItemsVisible >= 1 && (
             <li className="transition-all duration-300 ease-out">
-              <a href="#about-me" onClick={handleCloseMenu} className={hoverGradient}>
-                About Me
+              <a href="#home" onClick={handleCloseMenu} className={hoverGradient}>
+                Home
               </a>
             </li>
           )}
 
-          {menuItemsVisible >= 2 && (
+            {menuItemsVisible >= 2 && (
+            <li className="transition-all duration-300 ease-out">
+              <a href="#about-me" onClick={handleCloseMenu} className={hoverGradient}>
+                About me
+              </a>
+            </li>
+          )}
+
+          {menuItemsVisible >= 3 && (
             <li className="transition-all duration-300 ease-out">
               <details className="group">
                 <summary className={`${hoverGradient} cursor-pointer`}>
@@ -175,7 +184,7 @@ export default function Navbar() {
             </li>
           )}
 
-          {menuItemsVisible >= 3 && (
+          {menuItemsVisible >= 4 && (
             <li className="transition-all duration-300 ease-out">
               <a href="#education" onClick={handleCloseMenu} className={hoverGradient}>
                 Education
@@ -183,7 +192,7 @@ export default function Navbar() {
             </li>
           )}
 
-          {menuItemsVisible >= 4 && (
+          {menuItemsVisible >= 5 && (
             <li className="transition-all duration-300 ease-out">
               <a href="#resume" onClick={handleCloseMenu} className={hoverGradient}>
                 Resume
@@ -191,7 +200,7 @@ export default function Navbar() {
             </li>
           )}
 
-          {menuItemsVisible >= 5 && (
+          {menuItemsVisible >= 6 && (
             <li className="transition-all duration-300 ease-out">
               <a href="#contact" onClick={handleCloseMenu} className={hoverGradient}>
                 Contact
