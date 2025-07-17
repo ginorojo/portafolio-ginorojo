@@ -74,13 +74,13 @@ export default function Navbar() {
         </button>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-6 items-center">
-          <li>
-            <a href="#home" className={hoverGradient}>
+        <ul className="hidden md:flex gap-6 items-center ">
+          <li className="hover:scale-120 transition-transform duration-300">
+            <a href="#home" className={hoverGradient} >
               Home
             </a>
           </li>
-          <li>
+          <li className="hover:scale-120 transition-transform duration-300">
             <a href="#about-me" className={hoverGradient}>
               About Me
             </a>
@@ -94,7 +94,7 @@ export default function Navbar() {
             <button className={hoverGradient}>Projects</button>
             {dropdownOpen && (
               <ul className="absolute top-full left-0 mt-2 bg-[#242424] shadow-lg rounded-md p-2 w-48 space-y-1 z-50 font-normal ">
-                <li>
+                <li className="hover:scale-120 transition-transform duration-300">
                   <a
                     href="#personal-projects"
                     className={`${hoverGradient} block px-2 py-1`}
@@ -102,7 +102,7 @@ export default function Navbar() {
                     Personal Projects
                   </a>
                 </li>
-                <li>
+                <li className="hover:scale-120 transition-transform duration-300">
                   <a
                     href="#team-projects"
                     className={`${hoverGradient} block px-2 py-1`}
@@ -114,19 +114,19 @@ export default function Navbar() {
             )}
           </li>
 
-          <li>
+          <li className="hover:scale-120 transition-transform duration-300">
             <a href="#education" className={hoverGradient}>
               Education
             </a>
           </li>
 
-          <li>
+         <li className="hover:scale-120 transition-transform duration-300">
             <a href="#resume" className={hoverGradient}>
               Resume
             </a>
           </li>
 
-          <li>
+         <li className="hover:scale-120 transition-transform duration-300">
             <a href="#contact" className={hoverGradient}>
               Contact
             </a>
@@ -136,7 +136,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <ul className="md:hidden px-6 pb-4 bg-[#242424] space-y-3 overflow-hidden transition-all text-lg">
+        <ul className="md:hidden px-6 pb-4 bg-[#242424] space-y-3 overflow-hidden transition-all text-lg ">
           {menuItemsVisible >= 1 && (
             <li className="transition-all duration-300 ease-out">
               <a href="#about-me" onClick={handleCloseMenu} className={hoverGradient}>

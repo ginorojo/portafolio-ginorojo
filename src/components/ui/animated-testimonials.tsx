@@ -165,7 +165,8 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
               <a
               href={testimonials[active].github}
               target="_blank"
-              className="cursor-pointer"
+              className="cursor-pointer border-2 w-[110px] rounded-full flex gap-2 justify-center items-center p-1 hover:scale-120 transition-transform duration-300 hover:border-3 hover:border-[#a748fe] animate-glow "
+              
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -173,7 +174,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="hover:scale-120 transition-transform duration-300"
+                className=""
               >
                 <path
                   d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 
@@ -188,11 +189,12 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
   22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
                 />
               </svg>
+              <p>Github</p>
             </a>
             <a
               href={testimonials[active].link}
               target="_blank"
-              className="cursor-pointer"
+              className="cursor-pointer border-2 w-[110px] rounded-full flex gap-2 justify-center items-center p-1 hover:scale-120 transition-transform duration-300 hover:border-3 hover:border-[#a748fe] animate-glow "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -207,6 +209,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
               33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"
                 />
               </svg>
+              <p>Website</p>
             </a>
             </div>
              
