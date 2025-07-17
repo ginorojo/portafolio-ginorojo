@@ -22,12 +22,12 @@ export default function Header() {
     {
       title: "GitHub",
       icon: <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />,
-      href: "https://github.com/",
+      href: "https://github.com/ginorojo",
     },
    {
     title: "LinkedIn",
     icon: <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />,
-    href: "https://www.linkedin.com/in/gino-rojo-8b0ab8231/",
+    href: "https://www.linkedin.com/in/gino-rojo-jorquera-72aba1148/",
    }
   ];
 

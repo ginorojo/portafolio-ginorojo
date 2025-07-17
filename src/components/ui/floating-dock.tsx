@@ -134,13 +134,14 @@ function IconContainer({
   }
 
   return (
-    <a href={href}>
+    <a href={href} target="_blank" onClick={handleClick} className="cursor-pointer" >
       <motion.div
         ref={ref}
         style={{ width, height }}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
         className="relative flex aspect-square items-center justify-center rounded-full bg-gray-200 dark:bg-neutral-800"
+        
       >
         {hovered && (
           <motion.div
