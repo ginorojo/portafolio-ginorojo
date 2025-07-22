@@ -103,19 +103,19 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
                 onClick={handlePrev}
                 className="group/button flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-r from-[#18CCFC] via-[#6344F5] to-[#AE48FF] cursor-pointer"
               >
-                <IconArrowLeft className=" h-5 w-5 text-black transition-transform duration-300 group-hover/button:rotate-12 dark:text-neutral-100" />
+                <IconArrowLeft className=" h-5 w-5  transition-transform duration-300 group-hover/button:rotate-12 text-neutral-100" />
               </button>
               <button
                 onClick={handleNext}
                 className="group/button flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-r from-[#18CCFC] via-[#6344F5] to-[#AE48FF] cursor-pointer"
               >
-                <IconArrowRight className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:-rotate-12 dark:text-neutral-100" />
+                <IconArrowRight className="h-5 w-5  transition-transform duration-300 group-hover/button:-rotate-12 text-neutral-100" />
               </button>
             </div>
-            <h3 className="pt-6 md:pt-0  md:text-2xl text-lg font-bold text-black dark:text-white">
+            <h3 className="pt-6 md:pt-0  md:text-2xl text-lg font-bold  text-white">
               {testimonials[active].name}
             </h3>
-            <p className="text-sm mt-2 text-gray-500 dark:text-neutral-500">
+            <p className="text-sm mt-2 text-neutral-500">
               {testimonials[active].designation}
             </p>
 
@@ -132,7 +132,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
               </div>
             )}
 
-            <motion.p className="md:mt-4 mt-2 md:text-lg text-gray-500 dark:text-neutral-300">
+            <motion.p className="md:mt-4 mt-2 md:text-lg text-neutral-300">
               {testimonials[active].quote.split(" ").map((word, index) => (
                 <motion.span
                   key={index}
@@ -224,13 +224,13 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
                 onClick={handlePrev}
                 className="hover:scale-110 transition-transform duration-300 group/button flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-r from-[#18CCFC] via-[#6344F5] to-[#AE48FF] cursor-pointer"
               >
-                <IconArrowLeft className=" h-5 w-5 text-black transition-transform duration-300 group-hover/button:rotate-12 dark:text-neutral-100" />
+                <IconArrowLeft className=" h-5 w-5 transition-transform duration-300 group-hover/button:rotate-12 text-neutral-100" />
               </button>
               <button
                 onClick={handleNext}
                 className="hover:scale-110 transition-transform duration-300 group/button flex h-7 w-7 items-center justify-center rounded-full bg-gradient-to-r from-[#18CCFC] via-[#6344F5] to-[#AE48FF] cursor-pointer"
               >
-                <IconArrowRight className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:-rotate-12 dark:text-neutral-100 " />
+                <IconArrowRight className="h-5 w-5 transition-transform duration-300 group-hover/button:-rotate-12 text-neutral-100 " />
               </button>
             </div>
           </div>
