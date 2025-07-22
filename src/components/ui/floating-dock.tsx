@@ -112,7 +112,7 @@ function IconContainer({
       <div onClick={handleClick} className="cursor-pointer">
         <div
           ref={ref}
-          className={`relative flex aspect-square items-center justify-center rounded-full transition-all duration-300 bg-gray-200 dark:bg-neutral-800 ${
+          className={`relative flex aspect-square items-center justify-center rounded-full transition-all duration-300 bg-neutral-800 ${
             isTouched ? "w-12 h-12" : "w-8 h-8"
           }`}
         >
@@ -140,7 +140,7 @@ function IconContainer({
         style={{ width, height }}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
-        className="relative flex aspect-square items-center justify-center rounded-full bg-gray-200 dark:bg-neutral-800"
+        className="relative flex aspect-square items-center justify-center rounded-full bg-neutral-800"
         
       >
         {hovered && (
