@@ -115,6 +115,11 @@ export default function Navbar() {
           </li>
 
           <li className="hover:scale-120 transition-transform duration-300">
+            <a href="#GitHub-Activity" className={hoverGradient}>
+              Github Activity
+            </a>
+          </li>
+          <li className="hover:scale-120 transition-transform duration-300">
             <a href="#education" className={hoverGradient}>
               Education
             </a>
@@ -184,6 +189,13 @@ export default function Navbar() {
             </li>
           )}
 
+          {menuItemsVisible >= 4 && (
+            <li className="transition-all duration-300 ease-out">
+              <a href="#GitHub-Activity" onClick={handleCloseMenu} className={hoverGradient}>
+                Github Activity
+              </a>
+            </li>
+          )}
           {menuItemsVisible >= 4 && (
             <li className="transition-all duration-300 ease-out">
               <a href="#education" onClick={handleCloseMenu} className={hoverGradient}>

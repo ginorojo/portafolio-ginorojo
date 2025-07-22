@@ -8,15 +8,7 @@ import {
 
 export default function TextRevealCardPreview() {
   return (
-    <div className="pt-40 flex items-center justify-center flex-col  h-[20rem] rounded-2xl w-full "id="about-me"  >
-      <div id="about-me">
-        <TextRevealCard
-      className="text-3xl flex items-center justify-center pb-10"
-        text="</> About me"
-        revealText="</> About me "
-       
-      ></TextRevealCard>
-      </div>
+    
       <div className="flex flex-col items-center justify-center gap-2 md:flex-row ">
         <img className="w-[50%] md:w-[30%] lg:w-[15%]" src="/redonda.webp" alt="" />
         <TextRevealCardDescription className="text-center md:text-left w-[100%] md:w-[40%] flex justify-center items-center  text-[16px]  md:text-lg text-neutral-300">
@@ -25,7 +17,7 @@ export default function TextRevealCardPreview() {
         improve user experience. Known for logical thinking, attention to
         detail, and a strong commitment to continuous learning.
       </TextRevealCardDescription>
-      </div>
+      
     </div>
   );
 }

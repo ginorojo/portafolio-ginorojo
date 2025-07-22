@@ -13,12 +13,20 @@ export default function Body() {
   return (
     <div className="font-array flex flex-col items-center justify-center bg-gradient-to-b from-[#242424] to-[#3f3a75] h-full w-full text-white  px-8 pt-0 ">
       <TechCarousel />
-      <Aboutme />
+      
+      <div id="about-me" className="w-full">
+        <TextRevealCard
+          className="md:pt-30 pt-20 flex items-center justify-center  "
+          text="</> About Me"
+          revealText="</> About Me"
+        />
+        <Aboutme />
+      </div>
 
       {/* Personal Projects */}
       <div id="personal-projects">
         <TextRevealCard
-          className="md:pt-40 pt-50  flex items-center justify-center  "
+          className="md:pt-30 pt-20 flex items-center justify-center  "
           text="</> Personal Projects"
           revealText="</> Personal Projects"
         />
