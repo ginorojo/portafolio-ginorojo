@@ -7,6 +7,7 @@ import Cv from "./Cv.jsx";
 import Aboutme from "./Aboutme.jsx";
 import { TextRevealCard } from "./ui/text-reveal-card.jsx";
 import ContactForm from "./Contact.jsx";
+import GitHubCalendarSection from "./GitHubCalendarSection.jsx";
 
 export default function Body() {
   return (
@@ -33,6 +34,16 @@ export default function Body() {
         />
         <TecnologiasGrupal />
       </div>
+
+       <div id="GitHub-Activity" className="w-full">
+        <TextRevealCard
+          className="md:pt-30 pt-20 flex items-center justify-center w-full text-center "
+          text="</> GitHub Activity"
+          revealText="</> GitHub Activity"
+        />
+       <GitHubCalendarSection/>
+      </div>
+        
 
       {/* Education */}
       <div id="education">
