@@ -35,7 +35,7 @@ export default function HoverEffectManual() {
           <Card>
             {index === 0 ? (
               <>
-                <h4 className="text-white font-bold text-lg mb-4">Brigham Young University</h4>
+                <h3 className="text-white font-bold text-lg mb-4">Brigham Young University</h3>
                 <p className="text-sm text-neutral-100 mb-2 font-semibold">BA Software development:</p>
                 <p className="text-sm text-neutral-300"> April 2024 - in progress</p>
                 <p className="text-sm text-neutral-100 mt-4 mb-2 font-semibold">Certificate in computer and web development:</p>
@@ -43,7 +43,7 @@ export default function HoverEffectManual() {
               </>
             ) : (
               <>
-                <h4 className="text-white font-bold text-lg mb-4">Funval Internacional</h4>
+                <h3 className="text-white font-bold text-lg mb-4">Funval Internacional</h3>
                 <p className="text-sm text-neutral-100 mb-2 font-semibold">Certificate in Frontend Development:</p>
                 <p className="text-sm text-neutral-300"> April 2025 - July 2025</p>
               </>

@@ -8,11 +8,11 @@
   font-weight: regular;
 } */
 
-body, p, a, li, span, button,h2, h3, h4, h5, h6, div,ul{
+body, p, a, li,  button,h2, h3, h4, h5, h6, div,ul{
   font-family: 'Hove', sans-serif;
 }
 
-h1 {
+h1,h4 {
   font-family: 'Array', sans-serif;
   font-weight: wide;
 }

@@ -15,7 +15,7 @@ export default function TechCarousel() {
   const duplicatedTechs = [...techs, ...techs]; // Loop visual
 
   return (
-    <div className="w-full flex justify-center items-center py-10 bg-transparent">
+    <div className="w-full flex justify-center items-center md:py-10 pt-40 bg-transparent">
       <div className="relative w-[100%] md:w-[80%] max-w-5xl overflow-hidden">
         <div
           className="flex md:gap-10 gap-15 animate-scroll whitespace-nowrap"
