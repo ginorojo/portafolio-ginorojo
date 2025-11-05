@@ -5,7 +5,7 @@ export default function TechCarousel() {
     { name: "Tailwind CSS", src: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" },
     { name: "JavaScript", src: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" },
     { name: "React", src: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
-    { name: "Vite", src: "https://vitejs.dev/logo-with-shadow.png" },
+    { name: "Vite", src: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" },
     { name: "Node.js", src: "https://nodejs.org/static/images/logo.svg" },
     { name: "Axios", src: "https://avatars.githubusercontent.com/u/32372333?s=200&v=4" },
     { name: "SQL", src: "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" },

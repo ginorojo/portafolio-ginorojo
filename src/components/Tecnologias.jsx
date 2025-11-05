@@ -19,7 +19,7 @@ export default function AnimatedTestimonialsDemo() {
         },
         {
           name: "Vite",
-          icon: "https://vitejs.dev/logo-with-shadow.png",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg",
           url: "https://vitejs.dev/",
         },
         {
@@ -62,7 +62,7 @@ export default function AnimatedTestimonialsDemo() {
         },
         {
           name: "Vite",
-          icon: "https://vitejs.dev/logo-with-shadow.png",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg",
      
         },
         {
@@ -105,7 +105,7 @@ export default function AnimatedTestimonialsDemo() {
         },
         {
           name: "Vite",
-          icon: "https://vitejs.dev/logo-with-shadow.png",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg",
           url: "https://vitejs.dev/",
         },
         {
@@ -139,7 +139,7 @@ export default function AnimatedTestimonialsDemo() {
         },
         {
           name: "Vite",
-          icon: "https://vitejs.dev/logo-with-shadow.png",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg",
           url: "https://vitejs.dev/",
         },
         {
@@ -173,7 +173,7 @@ export default function AnimatedTestimonialsDemo() {
         },
         {
           name: "Vite",
-          icon: "https://vitejs.dev/logo-with-shadow.png",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg",
           url: "https://vitejs.dev/",
         },
         {

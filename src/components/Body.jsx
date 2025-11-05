@@ -8,6 +8,7 @@ import Aboutme from "./Aboutme.jsx";
 import { TextRevealCard } from "./ui/text-reveal-card.jsx";
 import ContactForm from "./Contact.jsx";
 import GitHubCalendarSection from "./GitHubCalendarSection.jsx";
+import {Tecno} from './Tecno';
 
 export default function Body() {
   return (
